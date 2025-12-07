@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.4">
+  <diagram name="Page-1" id="t85604bEUpYi0xCYbgZa">
+    <mxGraphModel dx="782" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-20" edge="1" parent="1" source="T_yyC4Ab1lrun1MCFAAl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="T_yyC4Ab1lrun1MCFAAl-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="BEGIN" vertex="1">
+          <mxGeometry height="80" width="120" x="350" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-21" edge="1" parent="1" source="T_yyC4Ab1lrun1MCFAAl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="T_yyC4Ab1lrun1MCFAAl-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="DECLARE number" vertex="1">
+          <mxGeometry height="70" width="130" x="345" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-22" edge="1" parent="1" source="T_yyC4Ab1lrun1MCFAAl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="T_yyC4Ab1lrun1MCFAAl-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DISPLAY &quot;Enter a number (0 to stop): &quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-8" edge="1" parent="1" source="T_yyC4Ab1lrun1MCFAAl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="T_yyC4Ab1lrun1MCFAAl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-11" connectable="0" parent="T_yyC4Ab1lrun1MCFAAl-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="number &amp;lt; 0" vertex="1">
+          <mxGeometry relative="1" x="-0.04" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-14" edge="1" parent="1" source="T_yyC4Ab1lrun1MCFAAl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="T_yyC4Ab1lrun1MCFAAl-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-15" connectable="0" parent="T_yyC4Ab1lrun1MCFAAl-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="number = 0" vertex="1">
+          <mxGeometry relative="1" x="0.24" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="User inputs number" vertex="1">
+          <mxGeometry height="170" width="170" x="325" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DISPLAY &quot;That&#39;s a positive number.&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-19" edge="1" parent="1" source="T_yyC4Ab1lrun1MCFAAl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="T_yyC4Ab1lrun1MCFAAl-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DISPLAY &quot;That&#39;s a negative number.&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-7" edge="1" parent="1" source="T_yyC4Ab1lrun1MCFAAl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.325;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" target="T_yyC4Ab1lrun1MCFAAl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-10" connectable="0" parent="T_yyC4Ab1lrun1MCFAAl-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="number &amp;gt; 0" vertex="1">
+          <mxGeometry relative="1" x="-0.1999" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-17" edge="1" parent="1" source="T_yyC4Ab1lrun1MCFAAl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="T_yyC4Ab1lrun1MCFAAl-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DISPLAY &quot;Program ended.&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="END" vertex="1">
+          <mxGeometry height="80" width="120" x="350" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="T_yyC4Ab1lrun1MCFAAl-18" edge="1" parent="1" source="T_yyC4Ab1lrun1MCFAAl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;" target="T_yyC4Ab1lrun1MCFAAl-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
